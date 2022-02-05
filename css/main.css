@@ -1,0 +1,707 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+	width: 1080px;
+	margin: 0 auto;
+}
+header {
+  w100%
+  height: 95px;
+   background: #B91616;
+}
+.menu {
+  width: 100%;
+  height: 95px;
+}
+#menu__toggle {
+  display: none;
+}
+.menu__btn {
+  display: none;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  font-size: 18px;
+  margin-left: 71px;
+  text-decoration: none;
+  color: #ffff;
+  
+}
+.menu__box {
+  margin-left: 200px;
+  padding-top: 34px;
+  margin-top: 0;
+  display: flex;
+}
+nav {
+  width: 100%;
+  background: #101010;
+   height: 4200px;
+}
+.h2-1 {
+  position: relative;
+  margin: 0;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+.h1-001 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 40%;
+}
+.h1-1 {
+  position: relative;
+  margin: 0;
+  font-size: 220px;
+  color: #fff;
+  font-family: 'Alfa Slab One', cursive;
+font-family: 'Irish Grover', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+.flex-2 {
+  display: flex;
+}
+.img-1 img {
+  width: 380px;
+  height: 250px;
+  margin-top: 55px;
+  margin-left: -100px;
+}
+.img-2 img {
+  width: 840px;
+  height: 560px;
+  margin-top: 55px;
+  margin-left: 50px;
+}
+.h1-2 {
+  color: #fff;
+  font-size: 24px;
+text-align: center;
+}
+
+
+.flex-4 {
+  display: flex;
+}
+.btn button {
+  width: 225px;
+  height: 65px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+        overflow: hidden;  
+         border: 1px solid #fff;
+         margin-top: 2320px;
+       margin-left: 40%;
+}
+.btn a {
+  text-decoration: none; 
+  color: #fff;
+  font-size: 18px;
+}
+.h1-3 {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 125px;
+  
+  
+}
+.img-3 {
+  margin-left: -100px;
+}
+.img-4 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.img-4 img {
+  
+}
+.img-3 img {
+  
+}
+
+.img-0 {
+  width: 145px;
+  height: 36px;
+  position: absolute;
+  left: 0;
+  margin-top: 162px;
+}
+.text {
+  position: relative;
+  z-index: 999;
+  margin-top: 165px;
+  margin-left: 150px;
+}
+.text b {
+  font-size: 70px;
+}
+.p-1 {
+  color: #B91616;
+}
+.b-1 {
+  color: #fff;
+}
+.photo {
+  width: 785px;
+  height: 520px;
+  position: relative;
+  top: -600px;
+  z-index: 2;
+  margin-left: 350px;
+}
+footer {
+  margin-top: -30px;
+  width: 100%;
+  height: 145px;
+  background: #B91616;
+
+}
+.h1-4 {
+  color: #fff;
+  font-size: 24px;
+  padding-top: 60px;
+}
+.flex-5 {
+  display: flex;
+}
+.flex-5 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.flex-5 ul {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -35px;
+}
+.h1-5 {
+  position: absolute;
+  color: #fff;
+  font-size: 24px;
+  left: 1500px;
+  margin-top: 70px;
+}
+ 
+.dws {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+.blocImg {
+ width: 570px;
+ height: 355px;
+ overflow: hidden;
+ background: #000;
+ cursor: pointer;
+}
+.blocImg img {
+ width: 100%;
+ height: 100%;
+ transition: .5s;
+}
+.dws:hover .blocImg img {
+ transform: rotate(-10deg) scale(1.3);
+ filter: blur(1px);
+ opacity: .5;
+}
+.blocText {
+ position: absolute;
+ top: 30px;
+ left: 30px;
+ right: 30px;
+ bottom: 30px;
+}
+.textt {
+ color: #fff;
+ text-transform: uppercase;
+ padding: 0 20px;
+ opacity: 0;
+ transition: .5s;
+}
+.textt h2 {
+ font-size: 25px;
+}
+.textt h2 span {
+ color: orange;
+ padding-bottom: 3px;
+ border-bottom: 2px solid #fff;
+}
+.textt p {
+ position: absolute;
+ top: 140px;
+ width: 250px;
+ border-left: 4px solid #ffb611;
+ padding: 0 10px;
+}
+.dws:hover .textt {
+ opacity: 1;
+}
+.blocText::before,
+.blocText::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ transition: .5s;
+}
+.blocText::before {
+ border-top: 1px solid #fff;
+ border-bottom: 1px solid #fff;
+ transform: scale(0,1);
+}
+.blocText::after {
+ border-left: 1px solid #fff;
+ border-right: 1px solid #fff;
+ transform: scale(1,0);
+}
+.dws:hover .blocText::before,
+.dws:hover .blocText::after{
+ transform: scale(1,1);
+}
+.mb-1 {
+ position: absolute;
+left: 1000px;
+ top: 1630px;
+}
+.mb-2 {
+ position: absolute;
+left: 1000px;
+ top: 1200px;
+}
+.mb-3 {
+ position: absolute;
+ left: 370px;
+ top: 1560px;
+}
+.mb-4 {
+ position: absolute;
+ left: 370px;
+ top: 1130px;
+}
+.mb-5 {
+  position: absolute;
+  top: 2000px;
+  left: 370px;
+}
+.mb-6 {
+  position: absolute;
+   left: 1000px;
+   top: 2050px;
+}
+.mb-7 {
+  position: absolute;
+left: 1000px;
+  top: 2470px;
+}
+.mb-8 {
+  position: absolute;
+  left: 370px;
+  top: 2430px;
+}
+.mb-9 {
+  position: absolute;
+  left: 370px;
+  top: 2850px;
+}
+.mb-10 {
+  position: absolute;
+  left: 1000px;
+  top: 2880px;
+}
+
+
+@media screen and (max-width: 1350px) {
+  .container {
+    width: 700px
+  }
+  .img-2 img {
+    width: 400px;
+    height: 560px;
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.h1-1 {
+  font-size: 150px
+}
+.blocImg {
+    width: 370px;
+    height: 200px;
+    overflow: hidden;
+    background: #000;
+    cursor: pointer;
+}
+.mb-4 {
+ left: 300px;
+ top: 1000px
+}
+.mb-2 {
+  left: 700px;
+  top: 950px
+}
+.mb-3 {
+ left: 300px;
+ top: 1230px
+}
+.mb-1 {
+  left: 700px;
+  top: 1180px
+}
+.mb-5 {
+  left: 300px;
+ top: 1460px
+}
+.mb-6 {
+  left: 700px;
+  top: 1410px
+}
+.mb-8 {
+  left: 300px;
+ top: 1690px
+}
+.mb-7 {
+  left: 700px;
+  top: 1640px
+}
+.mb-9 {
+  left: 300px;
+ top: 1920px
+}
+.mb-10 {
+  left: 700px;
+  top: 1870px
+}
+.textt h2 {
+  font-size: 20px;
+  margin-top: 5px
+}
+.textt p {
+  font-size: 10px;
+  top: 40px
+}
+nav {
+  height: 3000px
+}
+.btn button {
+  margin-top: 1300px
+}
+.text b {
+  font-size: 40px
+}
+.photo img {
+  margin-top: 270px;
+  width: 450px;
+  height: 350px
+}
+.flex-5 ul {
+  margin-left: 100px
+}
+.menu__box {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0
+}
+
+}
+
+@media screen and (max-width: 575px) {
+  /* скрываем чекбокс */
+/* скрываем чекбокс */
+#menu__toggle {
+  opacity: 0;
+}
+.menu a {
+  margin-left: 0
+}
+/* стилизуем кнопку */
+.menu__btn {
+  display: flex; /* используем flex для центрирования содержимого */
+  align-items: center;  /* центрируем содержимое кнопки */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+/* добавляем "гамбургер" */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+/* контейнер меню */
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: black;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.hamburger-menu {
+  position: relative;
+  z-index: 999
+}
+/* элементы меню */
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.menu__item:hover {
+  background-color: #CFD8DC;
+}
+#menu__toggle:checked ~ .menu__btn > span {
+  transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}
+.menu__box {
+  transition-duration: .25s;
+}
+.menu__item {
+  transition-duration: .25s;
+}
+.container {
+  width: 100%
+}
+.img-1 img {
+  width: 130px;
+    height: 135px;
+    margin-left: 15px;
+  
+}
+.img-2 img {
+  width: 79%;
+  height: 280px;
+  margin-left: 10px;
+  padding-left: 15px;
+  
+}
+.mb-22 {
+  position: absolute;
+  left: 0;
+  top: 240px;
+  margin-left: 15px;
+}
+.h1-1 {
+  font-size: 70px;
+ z-index: 99
+}
+.h2-1 {
+  font-size: 18px;
+}
+.h1-2 {
+  width: 100px;
+  font-size: 15px;
+}
+nav img {
+
+  height: 220px;
+}
+nav {
+  width: 100%;
+ height: 3800px
+}
+.mb-1 {
+  width: 100%;
+  top: 700px;
+  padding: 5px;
+  left: 0
+}
+.mb-2 {
+  width: 100%;
+   top: 950px;
+  padding: 5px;
+  left: 0;
+  }
+.mb-3 {
+  width: 100%;
+   top: 1200px;
+  padding: 5px;
+left: 0;
+}
+.mb-4 {
+  width: 100%;
+   top: 1450px;
+  padding: 5px;
+left: 0;
+}
+.mb-5 {
+  width: 100%;
+   top: 1700px;
+  padding: 5px;
+left: 0;
+}
+.mb-6 {
+  width: 100%;
+   top: 1950px;
+  padding: 5px;
+  left: 0;
+}
+.mb-7 {
+  width: 100%;
+   top: 2950px;
+  padding: 5px;
+left: 0;
+}
+.mb-8 {
+  width: 100%;
+   top: 2200px;
+  padding: 5px;
+  left: 0;
+}
+.mb-9 {
+  width: 100%;
+   top: 2450px;
+  padding: 5px;
+  left: 0;
+}
+.mb-10 {
+  width: 100%;
+  top: 2700px;
+  padding: 5px;
+  left: 0;
+}
+.blocImg img {
+  width: 100%
+}
+.blocImg {
+ width: 100%;
+  height: 220px;
+}
+.dws {
+  width: 100%;
+  top: 40%;
+    left: 47%;
+}
+.dws h2 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+.dws p {
+  font-size: 12px;
+  margin-top: -60px;
+}
+.blocText {
+  width: 300px;
+  height: 200px;
+  margin-top: -20px;
+}
+.btn {
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  height: 65px
+}
+.btn button {
+  position: relative;
+  z-index: 999;
+  margin-left: 20%;
+  margin-top: 2600px
+}
+.img-0 {
+  width: 22px;
+  height: 27px;
+  margin-top: 130px;
+}
+.text b {
+  font-size: 25px;
+
+}
+.text {
+  top: 2520px;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+.photo img {
+  width: 70%;
+  height: 260px;
+  margin-top: 400px;
+ margin-left: 100px
+}
+.photo {
+  top: 1900px;
+  width: 100%;
+  height: 630px;
+  margin-left: 0
+}
+footer {
+  height: 100px;
+  margin-top: -55px;
+}
+.h1-5 {
+  width: 30px;
+  left: 320px;
+   margin-top: 55px;
+  font-size: 10px;
+}
+.h1-4 {
+  width: 100px;
+ padding-left: 20px;
+ margin-left: 0;
+  padding-top: 55px;
+  font-size: 10px;
+}
+.flex-5 a {
+  font-size: 6px;
+  margin-left: 5px;
+}
+.flex-5 ul {
+  margin-top: -20px;
+  margin-left: 50px;
+}
+}
+ 
